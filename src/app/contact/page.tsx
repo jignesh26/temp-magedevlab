@@ -25,20 +25,26 @@ export default function ContactPage() {
             {/* Form */}
             <div className="bg-black p-8 rounded-xl border border-border-color">
               <h3 className="text-base font-bold text-white mb-6">Project Inquiry Form</h3>
-              <form className="space-y-6">
+              <form action="https://api.web3forms.com/submit" method="POST" className="space-y-6">
+                {/* Replace this value with your actual Web3Forms Access Key */}
+                <input type="hidden" name="access_key" value="YOUR_WEB3FORMS_ACCESS_KEY_HERE" />
+                
+                {/* Optional: Add a custom success redirect */}
+                <input type="hidden" name="redirect" value="https://web3forms.com/success" />
+                
                 <div>
                   <label className="block text-sm font-medium text-gray-400 mb-2">Name</label>
-                  <input type="text" className="w-full bg-background border border-border-color rounded-md px-4 py-3 text-white focus:outline-none focus:border-primary" placeholder="Your Name" />
+                  <input type="text" name="name" required className="w-full bg-background border border-border-color rounded-md px-4 py-3 text-white focus:outline-none focus:border-primary" placeholder="Your Name" />
                 </div>
                 <div>
                   <label className="block text-sm font-medium text-gray-400 mb-2">Email</label>
-                  <input type="email" className="w-full bg-background border border-border-color rounded-md px-4 py-3 text-white focus:outline-none focus:border-primary" placeholder="you@company.com" />
+                  <input type="email" name="email" required className="w-full bg-background border border-border-color rounded-md px-4 py-3 text-white focus:outline-none focus:border-primary" placeholder="you@company.com" />
                 </div>
                 <div>
                   <label className="block text-sm font-medium text-gray-400 mb-2">Message</label>
-                  <textarea rows={5} className="w-full bg-background border border-border-color rounded-md px-4 py-3 text-white focus:outline-none focus:border-primary" placeholder="Tell us about your project requirements..."></textarea>
+                  <textarea name="message" required rows={5} className="w-full bg-background border border-border-color rounded-md px-4 py-3 text-white focus:outline-none focus:border-primary" placeholder="Tell us about your project requirements..."></textarea>
                 </div>
-                <button type="button" className="w-full px-6 py-4 bg-primary text-white font-mono text-xs tracking-widest uppercase font-semibold rounded-md hover:bg-blue-700 transition-colors">
+                <button type="submit" className="w-full px-6 py-4 bg-primary text-white font-mono text-xs tracking-widest uppercase font-semibold rounded-md hover:bg-blue-700 transition-colors">
                   Send Inquiry
                 </button>
               </form>
