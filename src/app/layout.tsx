@@ -31,11 +31,10 @@ export default function RootLayout({
       >
         <header className="sticky top-0 z-50 w-full border-b border-border-color bg-background/80 backdrop-blur-md">
           <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
-            <Link href="/" className="flex items-center gap-2 group">
-              <div className="bg-primary/20 p-1.5 rounded-md group-hover:bg-primary/30 transition-colors">
-                <Code className="w-5 h-5 text-accent" />
+            <Link href="/" className="flex items-center gap-3 group">
+              <div className="p-1 rounded-md group-hover:bg-primary/10 transition-colors">
+                <img src="/logo.png" alt="LogicTenet Logo" className="w-12 h-12 object-contain brightness-0 invert" />
               </div>
-              <span className="font-bold text-xl tracking-tight">LOGICTENET</span>
             </Link>
             <nav className="hidden md:flex gap-8 items-center text-sm font-medium text-gray-300">
               <Link href="/about" className="hover:text-accent transition-colors">About</Link>
