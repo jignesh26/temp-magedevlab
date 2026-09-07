@@ -33,12 +33,12 @@ export default function RootLayout({
           <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
             <Link href="/" className="flex items-center gap-3 group">
               <div className="p-1 rounded-md group-hover:bg-primary/10 transition-colors">
-                <img src="/logo.png" alt="magedevlab Logo" className="w-12 h-12 object-contain brightness-0 invert" />
+                <img src="/logo.png" alt="magedevlab Logo" className="w-16 h-16 object-contain brightness-0 invert scale-150 origin-left" />
               </div>
             </Link>
             <nav className="hidden md:flex gap-8 items-center text-sm font-medium text-gray-300">
               <Link href="/about" className="hover:text-accent transition-colors">About</Link>
-              <Link href="/case-studies" className="hover:text-accent transition-colors">Case Studies</Link>
+              <Link href="/services" className="hover:text-accent transition-colors">Services</Link>
               <Link href="/contact" className="px-4 py-2 bg-primary hover:bg-blue-700 text-white rounded-md transition-colors border border-blue-500">Contact Us</Link>
             </nav>
             <button className="md:hidden text-gray-300 hover:text-white">
@@ -63,7 +63,7 @@ export default function RootLayout({
               <h4 className="font-semibold text-gray-200">Company</h4>
               <ul className="space-y-2 text-sm text-gray-400">
                 <li><Link href="/about" className="hover:text-accent transition-colors">About Us</Link></li>
-                <li><Link href="/case-studies" className="hover:text-accent transition-colors">Case Studies</Link></li>
+                <li><Link href="/services" className="hover:text-accent transition-colors">Services</Link></li>
                 <li><Link href="/contact" className="hover:text-accent transition-colors">Contact</Link></li>
               </ul>
             </div>
