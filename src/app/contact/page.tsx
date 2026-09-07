@@ -51,7 +51,7 @@ export default function ContactPage() {
                 <div>
                   <h3 className="text-lg font-bold text-white mb-2">Email Us</h3>
                   <p className="text-gray-400 text-sm mb-2">Send us your project scope, RFP, or general questions.</p>
-                  <a href="mailto:connect@logictenet.com" className="text-accent font-semibold hover:underline">connect@logictenet.com</a>
+                  <a href="mailto:connect@magedevlab.com" className="text-accent font-semibold hover:underline">connect@magedevlab.com</a>
                 </div>
               </div>
               <div className="flex gap-6 p-6 rounded-xl bg-black border border-border-color">

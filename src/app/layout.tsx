@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "LogicTenet — Architectural Precision in Enterprise Commerce",
-  description: "LogicTenet specializes in high-concurrency headless Adobe Commerce / Magento 2 architectures.",
+  title: "magedevlab — Architectural Precision in Enterprise Commerce",
+  description: "magedevlab specializes in high-concurrency headless Adobe Commerce / Magento 2 architectures.",
 };
 
 export default function RootLayout({
@@ -33,7 +33,7 @@ export default function RootLayout({
           <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
             <Link href="/" className="flex items-center gap-3 group">
               <div className="p-1 rounded-md group-hover:bg-primary/10 transition-colors">
-                <img src="/logo.png" alt="LogicTenet Logo" className="w-12 h-12 object-contain brightness-0 invert" />
+                <img src="/logo.png" alt="magedevlab Logo" className="w-12 h-12 object-contain brightness-0 invert" />
               </div>
             </Link>
             <nav className="hidden md:flex gap-8 items-center text-sm font-medium text-gray-300">
@@ -54,7 +54,7 @@ export default function RootLayout({
         <footer className="border-t border-border-color bg-black py-12">
           <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-4 gap-8">
             <div className="col-span-1 md:col-span-2 space-y-4">
-              <span className="font-bold text-xl tracking-tight">LOGICTENET</span>
+              <span className="font-bold text-xl tracking-tight">MAGEDEVLAB</span>
               <p className="text-sm text-gray-400 max-w-sm leading-relaxed">
                 Enterprise eCommerce Engineering. Architectural Precision.
               </p>
@@ -76,7 +76,7 @@ export default function RootLayout({
             </div>
           </div>
           <div className="mt-12 pt-8 border-t border-border-color text-center text-sm text-gray-500">
-            &copy; {new Date().getFullYear()} LogicTenet. All rights reserved.
+            &copy; {new Date().getFullYear()} magedevlab. All rights reserved.
           </div>
         </footer>
       </body>

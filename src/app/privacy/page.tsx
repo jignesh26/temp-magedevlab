@@ -14,16 +14,16 @@ export default function PrivacyPage() {
           <h3 className="text-xl font-semibold text-gray-200 mt-8 mb-4">Definitions</h3>
           <ul className="list-disc pl-6 space-y-2 mb-8">
             <li><strong>Account</strong> means a unique account created for You to access our Service or parts of our Service.</li>
-            <li><strong>Company</strong> (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to Logictenet.</li>
+            <li><strong>Company</strong> (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to magedevlab.</li>
             <li><strong>Cookies</strong> are small files that are placed on Your computer, mobile device or any other device by a website.</li>
             <li><strong>Country</strong> refers to: California, United States</li>
-            <li><strong>Website</strong> refers to Logictenet, accessible from https://logictenet.com</li>
+            <li><strong>Website</strong> refers to magedevlab, accessible from https://magedevlab.com</li>
           </ul>
 
           <h2 className="text-2xl font-bold text-white mt-12 mb-6">Contact Us</h2>
           <p>If you have any questions about this Privacy Policy, You can contact us:</p>
           <ul className="list-disc pl-6 space-y-2 mb-8">
-            <li>By email: connect@logictenet.com</li>
+            <li>By email: connect@magedevlab.com</li>
           </ul>
         </div>
       </div>

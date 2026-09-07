@@ -18,7 +18,7 @@ export default function AboutPage() {
             Senior eCommerce <span className="text-accent">Engineering Partners</span>
           </h1>
           <p className="text-xl text-gray-400 leading-relaxed">
-            LogicTenet was built on a simple premise: complex technical challenges require direct senior engineering leadership, not layers of account managers.
+            magedevlab was built on a simple premise: complex technical challenges require direct senior engineering leadership, not layers of account managers.
           </p>
         </div>
       </section>

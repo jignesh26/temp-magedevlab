@@ -35,7 +35,7 @@ export default function Home() {
               </h1>
 
               <p className="text-lg text-gray-400 max-w-xl leading-relaxed">
-                LogicTenet engineers high-concurrency commerce engines and headless Adobe Commerce frameworks for enterprises demanding absolute reliability and scale.
+                magedevlab engineers high-concurrency commerce engines and headless Adobe Commerce frameworks for enterprises demanding absolute reliability and scale.
               </p>
 
               <div className="flex flex-wrap items-center gap-4 pt-4">
