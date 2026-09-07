@@ -1,9 +1,9 @@
-import { Mail, Phone, Globe } from "lucide-react";
+import { Mail } from "lucide-react";
 
 export default function ContactPage() {
   return (
-    <div className="w-full bg-background min-h-screen">
-      <section className="relative py-24 border-b border-border-color overflow-hidden">
+    <div className="w-full bg-background min-h-[80vh] flex flex-col">
+      <section className="relative py-24 border-b border-border-color overflow-hidden flex-shrink-0">
         <div className="absolute inset-0 bg-gradient-to-b from-primary/5 to-transparent"></div>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10 animate-fade-in">
           <div className="inline-flex items-center gap-2 px-3 py-1 bg-black/50 border border-border-color rounded-full mb-6">
@@ -12,72 +12,27 @@ export default function ContactPage() {
           <h2 className="text-base md:text-base font-bold text-white mb-6">
             Start Your Project
           </h2>
-          <p className="text-base text-gray-400 leading-relaxed">
-            Let's discuss how we can help your business grow with enterprise commerce engineering.
+          <p className="text-base text-gray-400 leading-relaxed max-w-2xl mx-auto">
+            Let's discuss how we can help your business grow with enterprise commerce engineering. Send us your project scope, RFP, or general questions, and our technical leadership will get back to you promptly.
           </p>
         </div>
       </section>
 
-      <section className="py-24">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
-            
-            {/* Form */}
-            <div className="bg-black p-8 rounded-xl border border-border-color">
-              <h3 className="text-base font-bold text-white mb-6">Project Inquiry Form</h3>
-              <form action="https://api.web3forms.com/submit" method="POST" className="space-y-6">
-                {/* Replace this value with your actual Web3Forms Access Key */}
-                <input type="hidden" name="access_key" value="YOUR_WEB3FORMS_ACCESS_KEY_HERE" />
-                
-                {/* Optional: Add a custom success redirect */}
-                <input type="hidden" name="redirect" value="https://web3forms.com/success" />
-                
-                <div>
-                  <label className="block text-sm font-medium text-gray-400 mb-2">Name</label>
-                  <input type="text" name="name" required className="w-full bg-background border border-border-color rounded-md px-4 py-3 text-white focus:outline-none focus:border-primary" placeholder="Your Name" />
-                </div>
-                <div>
-                  <label className="block text-sm font-medium text-gray-400 mb-2">Email</label>
-                  <input type="email" name="email" required className="w-full bg-background border border-border-color rounded-md px-4 py-3 text-white focus:outline-none focus:border-primary" placeholder="you@company.com" />
-                </div>
-                <div>
-                  <label className="block text-sm font-medium text-gray-400 mb-2">Message</label>
-                  <textarea name="message" required rows={5} className="w-full bg-background border border-border-color rounded-md px-4 py-3 text-white focus:outline-none focus:border-primary" placeholder="Tell us about your project requirements..."></textarea>
-                </div>
-                <button type="submit" className="w-full px-6 py-4 bg-primary text-white font-mono text-xs tracking-widest uppercase font-semibold rounded-md hover:bg-blue-700 transition-colors">
-                  Send Inquiry
-                </button>
-              </form>
-            </div>
-
-            {/* Contact Info */}
-            <div className="space-y-8">
-              <div className="flex gap-6 p-6 rounded-xl bg-black border border-border-color">
-                <Mail className="w-8 h-8 text-primary flex-shrink-0" />
-                <div>
-                  <h4 className="text-base font-bold text-white mb-2">Email Us</h4>
-                  <p className="text-gray-400 text-sm mb-2">Send us your project scope, RFP, or general questions.</p>
-                  <a href="mailto:connect@magedevlab.com" className="text-accent font-semibold hover:underline">connect@magedevlab.com</a>
-                </div>
-              </div>
-              <div className="flex gap-6 p-6 rounded-xl bg-black border border-border-color">
-                <Phone className="w-8 h-8 text-primary flex-shrink-0" />
-                <div>
-                  <h4 className="text-base font-bold text-white mb-2">Call Us</h4>
-                  <p className="text-gray-400 text-sm mb-2">Speak directly with our technical leadership.</p>
-                  <a href="tel:+917948558291" className="text-accent font-semibold hover:underline">+91 7948558291</a>
-                </div>
-              </div>
-              <div className="flex gap-6 p-6 rounded-xl bg-black border border-border-color">
-                <Globe className="w-8 h-8 text-primary flex-shrink-0" />
-                <div>
-                  <h4 className="text-base font-bold text-white mb-2">Location</h4>
-                  <p className="text-gray-400 text-sm">India (Serving Global Clients)</p>
-                </div>
-              </div>
-            </div>
-            
+      <section className="flex-1 flex items-center justify-center py-16 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-md w-full bg-black p-10 rounded-2xl border border-border-color shadow-2xl flex flex-col items-center text-center hover:border-primary/50 transition-colors">
+          <div className="bg-primary/10 p-4 rounded-full mb-6">
+            <Mail className="w-10 h-10 text-primary" />
           </div>
+          <h3 className="text-2xl font-bold text-white mb-2">Email Us</h3>
+          <p className="text-gray-400 text-sm mb-8">
+            We actively monitor this inbox and strive to reply to all business inquiries within 24 hours.
+          </p>
+          <a 
+            href="mailto:connect@magedevlab.com" 
+            className="w-full px-6 py-4 bg-primary text-white font-mono text-sm tracking-widest uppercase font-semibold rounded-md hover:bg-blue-700 transition-colors shadow-lg shadow-primary/25"
+          >
+            connect@magedevlab.com
+          </a>
         </div>
       </section>
     </div>
