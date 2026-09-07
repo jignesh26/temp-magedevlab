@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Code, ShoppingBag, Store, Puzzle, Brain, PlugConnected } from "lucide-react";
+import { Code, ShoppingBag, Store, Puzzle, Brain, PlugZap } from "lucide-react";
 
 export const metadata = {
   title: "Services | magedevlab",
@@ -40,7 +40,7 @@ const services = [
   {
     title: "eCommerce Integrations",
     description: "Robust, bidirectional data pipelines connecting your eCommerce storefront with ERPs, CRMs, 3PLs, PIMs, and payment gateways with zero data loss.",
-    icon: PlugConnected,
+    icon: PlugZap,
     href: "/services/ecommerce-integrations",
   }
 ];

@@ -31,9 +31,9 @@ export default function RootLayout({
       >
         <header className="sticky top-0 z-50 w-full border-b border-border-color bg-background/80 backdrop-blur-md">
           <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
-            <Link href="/" className="flex items-center gap-3 group">
-              <div className="p-1 rounded-md group-hover:bg-primary/10 transition-colors">
-                <img src="/logo.png" alt="magedevlab Logo" className="w-16 h-16 object-contain brightness-0 invert scale-150 origin-left" />
+            <Link href="/" className="flex items-center group relative w-[100px] h-16">
+              <div className="absolute top-1/2 -translate-y-1/2 left-0 p-1 rounded-md group-hover:bg-primary/10 transition-colors z-50">
+                <img src="/logo.png" alt="magedevlab Logo" className="w-[100px] h-auto object-contain brightness-0 invert" />
               </div>
             </Link>
             <nav className="hidden md:flex gap-8 items-center text-sm font-medium text-gray-300">
