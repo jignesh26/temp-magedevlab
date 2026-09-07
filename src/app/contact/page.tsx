@@ -9,10 +9,10 @@ export default function ContactPage() {
           <div className="inline-flex items-center gap-2 px-3 py-1 bg-black/50 border border-border-color rounded-full mb-6">
              <span className="font-mono text-[11px] tracking-widest text-gray-400">CONTACT US</span>
           </div>
-          <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
+          <h2 className="text-base md:text-base font-bold text-white mb-6">
             Start Your Project
-          </h1>
-          <p className="text-xl text-gray-400 leading-relaxed">
+          </h2>
+          <p className="text-base text-gray-400 leading-relaxed">
             Let's discuss how we can help your business grow with enterprise commerce engineering.
           </p>
         </div>
@@ -24,7 +24,7 @@ export default function ContactPage() {
             
             {/* Form */}
             <div className="bg-black p-8 rounded-xl border border-border-color">
-              <h2 className="text-2xl font-bold text-white mb-6">Project Inquiry Form</h2>
+              <h3 className="text-base font-bold text-white mb-6">Project Inquiry Form</h3>
               <form className="space-y-6">
                 <div>
                   <label className="block text-sm font-medium text-gray-400 mb-2">Name</label>
@@ -49,7 +49,7 @@ export default function ContactPage() {
               <div className="flex gap-6 p-6 rounded-xl bg-black border border-border-color">
                 <Mail className="w-8 h-8 text-primary flex-shrink-0" />
                 <div>
-                  <h3 className="text-lg font-bold text-white mb-2">Email Us</h3>
+                  <h4 className="text-base font-bold text-white mb-2">Email Us</h4>
                   <p className="text-gray-400 text-sm mb-2">Send us your project scope, RFP, or general questions.</p>
                   <a href="mailto:connect@magedevlab.com" className="text-accent font-semibold hover:underline">connect@magedevlab.com</a>
                 </div>
@@ -57,7 +57,7 @@ export default function ContactPage() {
               <div className="flex gap-6 p-6 rounded-xl bg-black border border-border-color">
                 <Phone className="w-8 h-8 text-primary flex-shrink-0" />
                 <div>
-                  <h3 className="text-lg font-bold text-white mb-2">Call Us</h3>
+                  <h4 className="text-base font-bold text-white mb-2">Call Us</h4>
                   <p className="text-gray-400 text-sm mb-2">Speak directly with our technical leadership.</p>
                   <a href="tel:+917948558291" className="text-accent font-semibold hover:underline">+91 7948558291</a>
                 </div>
@@ -65,7 +65,7 @@ export default function ContactPage() {
               <div className="flex gap-6 p-6 rounded-xl bg-black border border-border-color">
                 <Globe className="w-8 h-8 text-primary flex-shrink-0" />
                 <div>
-                  <h3 className="text-lg font-bold text-white mb-2">Location</h3>
+                  <h4 className="text-base font-bold text-white mb-2">Location</h4>
                   <p className="text-gray-400 text-sm">India (Serving Global Clients)</p>
                 </div>
               </div>

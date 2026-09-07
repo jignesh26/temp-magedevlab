@@ -28,13 +28,13 @@ export default function Home() {
                 <span className="font-mono text-[11px] tracking-widest text-gray-400">ENTERPRISE E-COMMERCE ARCHITECTURE</span>
               </div>
 
-              <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight text-white leading-tight">
+              <h2 className="text-base sm:text-base lg:text-base font-bold tracking-tight text-white leading-tight">
                 Architectural <br/>
                 Authority in <br/>
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">Commerce</span>
-              </h1>
+              </h2>
 
-              <p className="text-lg text-gray-400 max-w-xl leading-relaxed">
+              <p className="text-base text-gray-400 max-w-xl leading-relaxed">
                 magedevlab engineers high-concurrency commerce engines and headless Adobe Commerce frameworks for enterprises demanding absolute reliability and scale.
               </p>
 
@@ -66,14 +66,14 @@ export default function Home() {
                     <Server className="text-primary w-8 h-8" />
                     <div>
                       <div className="text-sm text-gray-400">GraphQL Layer Latency</div>
-                      <div className="text-2xl font-bold text-white">42ms</div>
+                      <div className="text-base font-bold text-white">42ms</div>
                     </div>
                   </div>
                   <div className="flex items-center gap-4 bg-black/40 p-4 rounded-lg border border-white/5">
                     <Database className="text-accent w-8 h-8" />
                     <div>
                       <div className="text-sm text-gray-400">Uptime SLA</div>
-                      <div className="text-2xl font-bold text-white">99.99%</div>
+                      <div className="text-base font-bold text-white">99.99%</div>
                     </div>
                   </div>
                 </div>
@@ -90,7 +90,7 @@ export default function Home() {
            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-6">
              {techLogos.map((item) => (
                <div key={item.symbol} className="group flex flex-col items-center justify-center p-6 bg-[#0a0a0a] border border-border-color rounded-lg hover:border-primary/50 hover:bg-primary/5 transition-all cursor-pointer">
-                 <div className="font-mono text-2xl font-bold text-gray-700 group-hover:text-accent transition-colors">
+                 <div className="font-mono text-base font-bold text-gray-700 group-hover:text-accent transition-colors">
                    {item.symbol}
                  </div>
                  <div className="text-sm font-semibold text-gray-300 mt-2">{item.name}</div>
@@ -104,14 +104,14 @@ export default function Home() {
       <section className="py-24 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
-            <h2 className="text-3xl md:text-5xl font-bold">Headless Commerce & High-Concurrency Frameworks</h2>
-            <p className="text-gray-400 text-lg">We architect enterprise storefronts decoupled from monolithic backends using GraphQL data layers, Redis caching, and zero-weight frontend assets.</p>
+            <h3 className="text-base md:text-base font-bold">Headless Commerce & High-Concurrency Frameworks</h3>
+            <p className="text-gray-400 text-base">We architect enterprise storefronts decoupled from monolithic backends using GraphQL data layers, Redis caching, and zero-weight frontend assets.</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-[#0f1117] p-8 rounded-xl border border-border-color hover:border-primary/30 transition-colors">
               <Zap className="w-10 h-10 text-accent mb-6" />
-              <h3 className="text-xl font-bold text-white mb-4">Zero-Bloat Frontend</h3>
+              <h4 className="text-base font-bold text-white mb-4">Zero-Bloat Frontend</h4>
               <p className="text-gray-400 text-sm leading-relaxed mb-6">
                 Replace heavy JS bundle dependencies with ultra-lightweight state engines guaranteeing sub-1.2s Core Web Vitals.
               </p>
@@ -124,7 +124,7 @@ export default function Home() {
             
             <div className="bg-[#0f1117] p-8 rounded-xl border border-border-color hover:border-primary/30 transition-colors">
               <Server className="w-10 h-10 text-primary mb-6" />
-              <h3 className="text-xl font-bold text-white mb-4">High-Velocity APIs</h3>
+              <h4 className="text-base font-bold text-white mb-4">High-Velocity APIs</h4>
               <p className="text-gray-400 text-sm leading-relaxed mb-6">
                 Sub-second payload delivery via tailored GraphQL schemas. Seamless integration with enterprise ERPs (SAP, NetSuite).
               </p>
@@ -137,7 +137,7 @@ export default function Home() {
 
             <div className="bg-[#0f1117] p-8 rounded-xl border border-border-color hover:border-primary/30 transition-colors">
               <Shield className="w-10 h-10 text-accent mb-6" />
-              <h3 className="text-xl font-bold text-white mb-4">Core Refactoring</h3>
+              <h4 className="text-base font-bold text-white mb-4">Core Refactoring</h4>
               <p className="text-gray-400 text-sm leading-relaxed mb-6">
                 Eliminate technical debt and slow database transactions. We write clean, compliant Magento 2 modules.
               </p>

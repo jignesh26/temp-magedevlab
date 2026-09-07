@@ -23,10 +23,10 @@ export default function CaseStudiesPage() {
           <div className="inline-flex items-center gap-2 px-3 py-1 bg-black/50 border border-border-color rounded-full mb-6">
              <span className="font-mono text-[11px] tracking-widest text-gray-400">PROVEN TECHNICAL EXECUTION</span>
           </div>
-          <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
+          <h2 className="text-base md:text-base font-bold text-white mb-6">
             Case Studies
-          </h1>
-          <p className="text-xl text-gray-400 leading-relaxed">
+          </h2>
+          <p className="text-base text-gray-400 leading-relaxed">
             Real engineering. Real results. Explore how we solve complex technical challenges for ambitious businesses.
           </p>
         </div>
@@ -38,7 +38,7 @@ export default function CaseStudiesPage() {
             {cases.map((study, idx) => (
               <div key={idx} className="group p-8 rounded-xl bg-black border border-border-color hover:border-primary/50 transition-colors">
                 <study.icon className="w-12 h-12 text-primary mb-6 group-hover:scale-110 transition-transform" />
-                <h3 className="text-2xl font-bold text-white mb-4">{study.title}</h3>
+                <h4 className="text-base font-bold text-white mb-4">{study.title}</h4>
                 <p className="text-gray-400 leading-relaxed mb-6">{study.description}</p>
                 <div className="flex items-center text-accent font-semibold text-sm tracking-wide">
                   VIEW ARCHITECTURE <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
@@ -48,7 +48,7 @@ export default function CaseStudiesPage() {
           </div>
           
           <div className="mt-16 bg-primary/10 border border-primary/20 rounded-xl p-8 text-center">
-            <h3 className="text-xl font-bold text-white mb-4">Portfolio Notice</h3>
+            <h4 className="text-base font-bold text-white mb-4">Portfolio Notice</h4>
             <p className="text-gray-400 max-w-2xl mx-auto mb-6">We are actively building our public case study portfolio. Contact us to discuss relevant project examples.</p>
             <Link href="/contact" className="inline-flex items-center justify-center px-6 py-3 bg-primary text-white font-mono text-xs tracking-widest uppercase font-semibold rounded-md hover:bg-blue-700 transition-colors">
               Discuss Your Project

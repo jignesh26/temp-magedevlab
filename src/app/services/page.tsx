@@ -50,11 +50,11 @@ export default function ServicesPage() {
     <div className="py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:text-center">
-          <h2 className="text-base/7 font-semibold text-accent">eCommerce Engineering</h2>
-          <p className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-white sm:text-5xl lg:text-balance">
+          <h3 className="text-base/7 font-semibold text-accent">eCommerce Engineering</h3>
+          <p className="mt-2 text-pretty text-base font-semibold tracking-tight text-white sm:text-base lg:text-balance">
             Our Services
           </p>
-          <p className="mt-6 text-lg/8 text-gray-400">
+          <p className="mt-6 text-base/8 text-gray-400">
             magedevlab provides end-to-end eCommerce development services engineered for scale, speed, and reliability. From high-volume platform implementations to bespoke middleware and AI automations.
           </p>
         </div>
@@ -65,7 +65,7 @@ export default function ServicesPage() {
                 <div className="rounded-lg bg-primary/20 p-3 mb-6">
                   <service.icon className="h-6 w-6 text-accent" aria-hidden="true" />
                 </div>
-                <dt className="flex items-center gap-x-3 text-xl font-semibold leading-7 text-white">
+                <dt className="flex items-center gap-x-3 text-base font-semibold leading-7 text-white">
                   {service.title}
                 </dt>
                 <dd className="mt-4 flex flex-auto flex-col text-base leading-7 text-gray-400">
